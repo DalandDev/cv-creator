@@ -1,0 +1,20 @@
+.content-heading {
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+.experience {
+    display: flex;
+    flex-direction: row;
+    margin: 1.5em 0;
+}
+
+.year {
+    margin-right: 3em;
+    white-space: nowrap;
+}
+
+.position {
+    width: 100%;
+    white-space: nowrap;
+}

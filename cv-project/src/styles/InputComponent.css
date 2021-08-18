@@ -1,0 +1,42 @@
+#input-container {
+    min-width: 20em;
+    width: 100%;
+    background-color: rgb(229, 232, 236);
+    color: rgb(41, 45, 51);
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1em solid rgb(41, 45, 51);
+    border-left: 1em solid rgb(41, 45, 51);
+}
+
+.input-heading {
+    font-weight: 700;
+    font-size: 1.2em;
+    margin: 1em 1.25em;
+    
+}
+
+#personal-input {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0 0 0;
+}
+
+#end-buttons {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0 1em 0;
+}
+
+#reset {
+    background-color: rgb(219, 0, 0);
+    transition: background-color 0.1s;
+}
+
+#reset:hover {
+    background-color: rgb(173, 30, 30);
+}
+
+#reset:active {
+    background-color: rgb(231, 44, 44);
+}
